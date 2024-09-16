@@ -45,7 +45,7 @@ class InformationOverload(BaseEnvironment):
 
     name = "information-overload"
     agent_subclasses = ["BasicMobileAgent", "BasicPlanner"]
-    #required_entities = ["Coin"]
+    required_entities = ["Coin"]
 
     def __init__(
         self,
