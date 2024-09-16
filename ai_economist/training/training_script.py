@@ -23,7 +23,7 @@ try:
     print(f"Inside training_script.py: {num_gpus_available} GPUs are available.")
     import torch
     import yaml
-    from warp_drive.training.trainer import Trainer
+    from warp_drive.training.trainers.trainer_a2c import TrainerA2C as Trainer
     from warp_drive.utils.env_registrar import EnvironmentRegistrar
 except ModuleNotFoundError:
     raise ModuleNotFoundError(
